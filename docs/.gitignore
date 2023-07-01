@@ -1,0 +1,40 @@
+# For per-project exclude file specification use the following
+#     .git/ino/exclude
+
+*.ai
+*.eps
+*.zip
+
+/assets/ieee/*.pdf
+
+/work/data
+/work/tmp
+
+# Typical garbage files
+*~
+.*~
+* conflicted copy *
+*.bak
+*.tmp
+
+# Other version control system
+RCS
+CVS
+.svn
+
+# Tags
+
+tags
+
+# Mac OS X specific files
+.DS_Store
+.Trash*
+.Spotlight-*
+.hidden
+.hotfiles.btree
+.vol
+.FBCIndex
+.FBCLockFolder
+.CFUserTextEncoding
+.localized
+Icon

@@ -1,0 +1,255 @@
+/*
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+*/
+
+.container {
+  width: auto;
+}
+
+.courousel img {
+  object-fit: cover;
+  overflow: hidden;
+}
+
+#pvis-banner-division {
+  position: relative;
+  text-align: center;
+  color: #ddd;
+}
+
+#banner_text {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+  color: #eee;
+}
+
+.navbar-nav>li>a {
+  font-size: 17px;
+}
+
+.navbar-nav ul.dropdown-menu li:first-child a {
+  color: white;
+  background-color: #444;
+  font-weight: bold;
+}
+
+.navbar-nav a[href="#important-dates"], a[href="#Full-Paper"], a[href="#VisNotes"], a[href="#posters-1"], a[href="#Storytelling_Contest"], a[href="#PacificVAST"], a[href="#Other_Events"] {
+  margin-top: 1px;
+  color: white;
+  background-color: #888;
+  font-weight: bold;
+}
+
+h2#Full-Paper, h2#VisNotes, h2#posters-1, h2#Storytelling_Contest, h2#PacificVAST, h2#Other_Events, h1#PacificVAST, h1#PacificVis {
+  padding-top: 3ex;
+  font-size: 400%;
+  font-weight: bold;
+}
+
+h2#Storytelling_Contest {
+  font-size: 300%;
+}
+
+section[level="1"] {
+  margin-top: 30px;
+  padding-top: 2ex;
+  padding-bottom: 2ex;
+  background-color: #f0f0f0;
+}
+
+section[level="2"] {
+  border-top: dotted thin;
+  padding-top: 1ex;
+}
+
+h1, h2 {
+  /**
+   * A workaround proposed by @josegrad on 26 Oct 2012 in issue #1768
+   * https://github.com/twbs/bootstrap/issues/1768#issuecomment-9793708
+   * > Navbar hides initial content when jumping to in-page anchor
+   **/
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+dl dd {
+  margin-left: 4ex;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 3ex;
+  margin-bottom: 3ex;
+}
+
+table tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+table tr:nth-child(odd) {
+  background-color: #fcfcfc;
+}
+
+td {
+  padding: 3px;
+}
+
+figure {
+  text-align: center;
+  margin-top: 3ex;
+  margin-bottom: 3ex;
+}
+
+section a {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+person {
+  text-align: center;
+}
+
+underline {
+  text-decoration: underline;
+}
+
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.sponsors {
+  margin: 0ex 2ex 0ex 2ex;
+  font-weight: bolder;
+  background-color: #ffffff;
+}
+
+div.goldsponsors {
+  margin: 0ex 2ex 0ex 2ex;
+  background-color: rgb(255,235,128);
+}
+
+sponsor {
+  padding: 1ex;
+}
+
+sponsor.text-only {
+  background-color: #f8f8f8;
+  text-align: left;
+  padding: 2ex;
+  border: groove;
+  border-radius: 5px;
+  box-shadow: 3px 3px;
+}
+
+h2#sponsors ~ .row {
+  padding-top: 1ex;
+  padding-bottom: 1ex;
+}
+
+alert {
+  color: #800;
+  font-weight: bolder;
+}
+
+*.passed {
+  color: #aaa;
+}
+
+span.rubout {
+  text-decoration: line-through;
+}
+
+img[usemap] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+session-start, session-chair {
+  display: block;
+  margin-right: 50pt;
+  text-align: left;
+  font-weight: bolder;
+}
+
+talk {
+  display: block;
+  margin-top: 20pt;
+}
+
+talk-title {
+  font-weight: bolder;
+}
+
+talk-type {
+  padding: 2pt 7pt 2pt 7pt;
+  margin-left: 8pt;
+  -webkit-border-radius: 5pt;
+  -moz-border-radius: 5pt;
+  background-color: #00c;
+  font-weight: bolder;
+  color: #eee;
+}
+
+talk-type.premium {
+  color: #00c;
+  background-color: gold;
+}
+
+talk-type.Note {
+  background-color: purple;
+}
+
+talk-type.Poster {
+  background-color: green;
+}
+
+talk-type.Contest {
+  background-color: orange;
+}
+
+author, authors, contest-vimeo, talk-abstract {
+  margin-left: 50pt;
+  margin-right: 20pt;
+}
+
+contest-vimeo {
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+}
+
+author, authors {
+  margin-top: 3pt;
+  display: block;
+}
+
+chair, author-name, authors {
+  font-weight: bolder;
+}
+
+contest-vimeo {
+  display: block;
+}
+
+talk-abstract {
+  display: block;
+  margin-top: 10pt;
+}
